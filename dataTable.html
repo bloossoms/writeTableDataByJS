@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的派车</title>
+  <!-- ========== Css Files ========== -->
+  <link href="css/root.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FFFFFF;
+    }
+
+    .page-header {
+      margin: 0px -30px 0px 0px;
+    }
+
+    #table-content {
+      padding: 0;
+    }
+
+    #example0_length {
+      display: none;
+    }
+
+    #page-title {
+      font-size: 16px;
+    }
+
+    .split-marker {
+      padding: 10px 0px !important;
+    }
+
+    #table-1,
+    #table-2 {
+      padding: 0px !important;
+    }
+
+    .panel {
+      padding: 20px 5px;
+    }
+
+    table {
+      table-layout: auto;
+      word-break: break-all;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+  <div class="loading"><img src="img/loading.gif" alt="loading-img"></div>
+  <!-- End Page Loading -->
+  <!--菜单-->
+  <div class="col-md-12 col-lg-12 padding-0">
+    <div class="panel panel-transparent">
+      <!--            <div class="panel-title">-->
+      <!--                Line-->
+      <!--            </div>-->
+      <div class="panel-body">
+        <div role="tabpanel" id="tab-content">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs nav-line" role="tablist" id="page-title">
+            <li role="presentation" class="active"><a href="#ordering-trucks" aria-controls="ordering-trucks" role="tab"
+                data-toggle="tab">我的派车单</a></li>
+            <li><a href="#" class="split-marker">|</a></li>
+            <li role="presentation"><a href="#un-received-orders" aria-controls="un-received-orders" role="tab"
+                data-toggle="tab">接收转场</a></li>
+            <!--                        <li role="presentation"><a href="#messages5" aria-controls="messages5" role="tab" data-toggle="tab">Messages</a></li>-->
+          </ul>
+          <!--内容区-->
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="ordering-trucks">
+              <!--    内容1                     -->
+              <!-- Start Panel 表格-->
+              <!-- Start Panel 表格-->
+              <div class="col-md-12" id="table-1">
+                <div class="panel panel-default">
+                  <div class="panel-body table-responsive">
+                    <table id="tab-table-1" class="table display">
+
+                      <thead>
+                        <tr>
+                          <th style="min-width:200px">项目名称</th>
+                          <th style="min-width:150px">用车地点</th>
+                          <th style="min-width:150px">用车类型</th>
+                          <th style="min-width:75px">用车人</th>
+                          <th style="min-width:100px">用车开始日期</th>
+                          <th style="min-width:100px">用车预估天数</th>
+                          <th style="min-width:50px">状态</th>
+                        </tr>
+                      </thead>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel -->
+              <!-- End Panel -->
+            </div>
+            <div role="tabpanel" class="tab-pane" id="un-received-orders">
+              <!--    内容2                    -->
+              <!-- Start Panel 表格-->
+              <div class="col-md-12" id="table-2">
+                <div class="panel panel-default">
+                  <div class="panel-body table-responsive">
+                    <table id="tab-table-2" class="table display">
+
+                      <thead>
+                        <tr>
+                          <th style="min-width:200px">项目名称</th>
+                          <th style="min-width:100px">车辆类型</th>
+                          <th style="min-width:100px">转场发起人</th>
+                          <th style="min-width:100px">发起人联系方式</th>
+                          <th style="min-width:100px">转场发起时间</th>
+                          <th style="min-width:150px">操作</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>大兴机场</td>
+                          <td>捷豹越野</td>
+                          <td>王五</td>
+                          <td>1826565662</td>
+                          <td>2021-06-16</td>
+                          <td>
+                            <a target="_blank" class="btn  btn-success btn-sm" href="#">确认转场</a>
+                            <a target="_blank" class="btn  btn-danger btn-sm" href="#">拒绝</a>
+                          </td>
+                        </tr>
+
+
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel -->
+            </div>
+            <!--                        <div role="tabpanel" class="tab-pane" id="messages5">-->
+            <!--                            <p>Duis ac enim diam</p>-->
+            <!--                        </div>-->
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- ================================================
+jQuery Library
+================================================ -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+
+  <!-- ================================================
+Bootstrap Core JavaScript File
+================================================ -->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- ================================================
+Plugin.js - Some Specific JS codes for Plugin Settings
+================================================ -->
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <!-- ================================================
+Bootstrap Select
+================================================ -->
+  <script type="text/javascript" src="js/bootstrap-select/bootstrap-select.js"></script>
+
+  <!-- ================================================
+Bootstrap Toggle
+================================================ -->
+  <script type="text/javascript" src="js/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+
+  <!-- ================================================
+Data Tables
+================================================ -->
+  <script src="js/datatables/datatables.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // 定义数据对象列表
+      var table_data = [
+        {
+          name: "大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "1大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "2大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "1大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "2大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },{
+          name: "大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "1大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        },
+        {
+          name: "2大兴机场",
+          address: "浦城-梅州、兴国-泉州",
+          car_type: "捷豹",
+          user: "张三",
+          date_start: "2012-12-9",
+          use_time: "10",
+          state: "待审核"
+        }
+
+      ];
+      // 创建表格的tbody结点
+      var tbody = document.createElement("tbody");
+      // 遍历数据列表
+      for (var emp of table_data) {
+        // 对每条数据新建表格行
+        var tr = tbody.insertRow();
+        // 遍历每条数据的所有数据项
+        for (var pname in emp) {
+          // 给每个数据项新建表格单元
+          var cell = tr.insertCell(-1);
+          // 将数据写入表格单元
+          cell.innerHTML = emp[pname];
+        }
+      }
+      // 将创建好的tbody插入到对应表格
+      var table_ele = document.getElementById("tab-table-1");
+      table_ele.appendChild(tbody);
+      // 用表格插件函数渲染
+      $('#tab-table-1').DataTable();
+      $('#tab-table-2').DataTable();
+
+    });
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      var table = $('#example').DataTable({
+        "columnDefs": [
+          { "visible": false, "targets": 2 }
+        ],
+        "order": [[2, 'asc']],
+        "displayLength": 25,
+        "drawCallback": function (settings) {
+          var api = this.api();
+          var rows = api.rows({ page: 'current' }).nodes();
+          var last = null;
+
+          api.column(2, { page: 'current' }).data().each(function (group, i) {
+            if (last !== group) {
+              $(rows).eq(i).before(
+                '<tr class="group"><td colspan="5">' + group + '</td></tr>'
+              );
+              last = group;
+            }
+          });
+        }
+      });
+
+      // Order by the grouping
+      $('#example tbody').on('click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
+          table.order([2, 'desc']).draw();
+        }
+        else {
+          table.order([2, 'asc']).draw();
+        }
+      });
+    });
+  </script>
+  <script>
+
+
+  </script>
+
+
+</body>
+
+</html>
